@@ -1,32 +1,10 @@
-# Prerequisites
-*.d
+# Ignore all 忽略所有文件
+*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Unignore files with specific extensions 设置你不想忽略的文件
+!*.cpp
+!*.txt
+!*.md
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Unignore all dirs
+!*/
