@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 inline double square(double x){ return x * x; }
-//内联函数。,如果定义过长不太适合.不能递归.加inline即可
+//内联函数。如果定义过长不太适合;不能递归;加inline
 int main(){
 	double a, b;
 	double c = 13.0;
