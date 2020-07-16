@@ -6,7 +6,7 @@ using namespace std;
 void estimate(int lines, double (*pf)(int));
 int main(){
 	int code;
-	cout << "how many lines of code do you need? ";
+	cout << "How many lines of code do you need? ";
 	cin >> code;
 	cout << "here betsy:\n";
 	estimate(code,betsy);
