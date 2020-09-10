@@ -1,0 +1,11 @@
+1.不能把字符串常量赋值给一个字符数组，因为字符串常量的直接值是一个指针。
+2.声明指针最好这样。 int *a
+3.char *message = "hello world"  等同于 char *message; message = "hello world";
+4.定义复杂类型名字时，函数指针或指向数组的指针，用typedef 更好
+5.int *pi;						普通指向整型的指针
+  int const *pci;				指向整型常量的指针                 指针的值可以修改，不能修改指向的值。
+  int *const cpi;				指向整型的 常量指针。			   指针值改不了。可修改指向的值
+  int const *const cpci;        不能修改
+
+6.#define 允许使用字面值常量。    const只用于 允许使用变量的地方。
+7. 
