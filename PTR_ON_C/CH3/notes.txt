@@ -8,4 +8,5 @@
   int const *const cpci;        不能修改
 
 6.#define 允许使用字面值常量。    const只用于 允许使用变量的地方。
-7. 
+7. external链接属性的实体(global实体);  在代码内部的变量声明添加extern，将变成全局变量 
+
